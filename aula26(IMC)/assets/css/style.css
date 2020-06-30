@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+:root {
+    --primary-color:rgb(12, 72, 179);
+    --primary-color-darker:rgb(9, 48, 56);
+}
+
+* {
+ box-sizing: border-box;
+ outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container {
+max-width: 640px;
+margin: 50px auto;
+background-color: snow;
+padding: 20px;
+border-radius: 10px;
+
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding:0 20px;
+}
+
+form input:focus {
+outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form buttom:hover {
+    background: var(--primary-color-darker);
+}
+
+form button:active{
+    background-color: red;
+}
+
+#conteudo-2-1 {
+    float:left;
+    width:480px;
+    background:#ddf;
+}
+#conteudo-2-2 {
+    float:right;
+    width:240px;
+    background:#dff;
+}
+
+.paragrafo-resultado {
+background: #5eff00;
+padding: 10px 20px;
+}
+
+.bad {
+    background: salmon;
+}
+/*https://fonts.google.com/ */
