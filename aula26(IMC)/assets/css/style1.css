@@ -1,0 +1,32 @@
+.produto	{					
+	position: relative;
+	padding-left: 50%;
+	top: 0px;
+	font-size: small;
+}
+
+.produto1	{					
+	position:relative;
+	padding-left:  12%;
+	padding-top:  2%;
+	font-size: small;
+}
+
+.head {
+	position:relative;
+	padding: top 0;
+	font-size: 22px;
+	  left: 300px;
+}
+
+.head1 {
+	position: relative;
+	top: 30px;
+	left: 70px;
+	font-size: 22px;
+}
+
+.head2 {
+	position: relative;
+  	left: 170px;
+}
